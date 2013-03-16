@@ -1,0 +1,8 @@
+# Change this appropriately
+
+DIR=/Users/npadmana/myWork/c4go
+export LD_LIBRARY_PATH=$DIR/local/lib:$LD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH=$DIR/local/lib:$DYLD_LIBRARY_PATH
+export LIBRARY_PATH=$DIR/local/lib:$LIBRARY_PATH
+export C_INCLUDE_PATH=$DIR/local/include:$C_INCLUDE_PATH
+export PKG_CONFIG_PATH=$DIR/local/lib/pkgconfig:$PKG_CONFIG_PATH

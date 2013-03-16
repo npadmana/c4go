@@ -1,0 +1,15 @@
+This is a collection of tarballs of C codes that I use a lot.
+This is currently being packaged for me to play with Go and CGo.
+
+The current list of packages :
+  GSL
+  FFTW
+  LAPACK
+  Scalapack 
+  GlobalArrays
+
+Note on BLAS/LAPACK :
+  We build a reference version of BLAS for portability. However, the 
+  idea is to be able to switch in a new version if available. That does require
+  you to appropriately edit the CMakeLists.txt files in the external directory, 
+  as well as to set the appropriate variables in init.sh
